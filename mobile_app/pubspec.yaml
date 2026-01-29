@@ -1,0 +1,6 @@
+name: phishing_detector
+description: QR based phishing URL detection
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
