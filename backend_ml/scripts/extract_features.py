@@ -26,5 +26,8 @@ def extract_features(url):
 
 
 if __name__ == "__main__":
-    test_url = "https://secure-login.bank.com"
-    print(extract_features(test_url))
+    url = input("Enter URL to analyze: ")
+    features = extract_features(url)
+    print(features)
+
+    
